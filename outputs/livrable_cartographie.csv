@@ -1,0 +1,16 @@
+column,category,protection
+id,quasi-identifiantes,drop
+full_name,personnelle,drop
+email,personnelle,hash
+phone,personnelle,hash
+age,personnelle,bin
+gender,personnelle,drop
+country,non-identifiantes,drop
+city,personnelle,drop
+salary_band,sensibles,drop
+ip_address,sensibles,hash
+gps_lat,personnelle,noise
+gps_lon,personnelle,noise
+health_condition,sensibles,hash
+purchase_amount,quasi-identifiantes,noise
+churned,non-identifiantes,keep
