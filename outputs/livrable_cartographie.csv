@@ -1,8 +1,8 @@
 column,category,protection
 id,quasi-identifiantes,drop
 full_name,personnelle,drop
-email,personnelle,hash
-phone,personnelle,hash
+email,personnelle,mask_email
+phone,personnelle,truncate_phone
 age,personnelle,bin
 gender,personnelle,drop
 country,non-identifiantes,drop
