@@ -25,7 +25,3 @@ Remarques importantes
 - Le hachage SHA‑256 utilisé est une pseudonymisation (nécessite gestion du sel).
 - Le bruit appliqué n’est pas une garantie de Differential Privacy formelle ; pour une DP rigoureuse, appliquer des mécanismes sur des agrégats.
 - Usage pédagogique uniquement — adapter les mesures pour un contexte production et un audit RGPD complet.
-
-Licence
-- Usage pédagogique.
-```//
